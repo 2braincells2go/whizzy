@@ -1,0 +1,28 @@
+#summary Installation instructions for the Whizzy CMS.
+#labels Featured
+
+= Short and sweet =
+
+  # Grab the featured download from the [http://whizzy.googlecode.com Project Home] page
+  # Rename it to `index.php`
+  # Upload it to the document root (where the HTML lives) on your host
+  # Point your web browser at the new index.php and complete the simple form
+
+==You're done.==
+
+
+= More help =
+The above _too_ simple?
+
+  # *Grab the featured download from the [http://whizzy.googlecode.com Project Home] page* Downloads are also on the [http://code.google.com/p/whizzy/downloads/list Download] page. Whizzy is compact, so we can avoid messing with zip files or unpacking archives. The installer is a PHP script, renamed as a text file so that when you click the link it does not execute when you want to download. The filename includes the release number, so whizzycms1001.php.txt refers to release 10.01.
+  # *Rename it to `index.php`*  You can reverse steps 2 and 3 if you wish. Do the rename wherever it's easier for you. *Note*, you don't have to call it `index.php`, you could call it something like go.php or pages.php but the installer will still create a file called index.php, so if you already have an index.php you need to keep, first rename that to something temporary, then rename the Whizzy-generated index.php, then rename your original back. This is useful if you want to use Whizzy as a file manager, or to provide static pages on your site but want serve the home page with some other system (e.g. WordPress)
+  # *Upload it to the document root (where the HTML lives) on your host* If you are not sure about this, it's where your ISP says the HTML files should go. Most hosts provide a file manager that you can use for this step, otherwise you'll need to use an FTP client.
+  # *Point your web browser at the new index.php and complete the simple form* So, in the address bar of Firefox, Internet Explorer, Safari, or whatever you are using enter something like *http://www._yourdomainname.com_/index.php* - where _yourdomainname.com_ is the address of your website. You can probably leave off the "/index.php", unless you chose a different name at step 2.
+
+
+==You're done.==
+OK, _slight_ exaggeration. 
+
+At step 4 you should be looking at the install form. It's asking you for a site name and tagline - you can change these later. Then it wants a username and password for the administrator. You don't have to use the suggested name of "admin" and it may be more secure if you don't. It's vital to remember the name you choose though. If you later forget the password, then Whizzy will try and email a new one to the email address you gave, so don't use the email of your worst enemy. If you forget both you'll have to re-install. Get through this little screen and you'll have a shiny new website where you can begin to add and edit pages, adjust the template settings (fonts, colors, backgrounds and column side), or even create a whole new template. Have fun.
+
+ "This is not the end. It is not even the beginning of the end. But it may be the end of the beginning"
